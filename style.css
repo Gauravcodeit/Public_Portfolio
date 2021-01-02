@@ -1,0 +1,12 @@
+body {
+    background-image: url("paper.gif");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    color: #1F2937;
+}
+
+aside {
+    width: 21%;
+    float: right;
+    font-style: italic;
+}
