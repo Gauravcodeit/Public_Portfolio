@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 body {
     background-image: url("paper.gif");
     background-repeat: repeat;
@@ -17,4 +18,12 @@ h1 {
 
 #sec1 {
     color: #DC2626;
+}
+
+.para {
+    color: #F87171;
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
 }
