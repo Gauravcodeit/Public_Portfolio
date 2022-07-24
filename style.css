@@ -4,11 +4,37 @@ body {
     background-repeat: repeat;
     background-color: #cccccc;
     color: #1F2937;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+.navmain{
+    margin-bottom: 10px;
 
+}
+.content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+
+}
+.headernav li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: maroon;
+    font-family: serif;
+    text-transform: capitalize;
+    pointer-events: visible;
+}
+.headernav{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
 aside {
-    width: 21%;
-    float: right;
+    margin-right: 15px;
+    float: left;
     font-style: italic;
 }
 .poster {
