@@ -11,6 +11,14 @@ aside {
     float: right;
     font-style: italic;
 }
+.poster {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
 
 h1 {
     color: #111827;
