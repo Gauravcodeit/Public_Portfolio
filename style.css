@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
 body {
 
     background-repeat: repeat;
@@ -72,6 +72,3 @@ h1 {
 h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
-footer{
-    background-image: url("paper.gif");
-    }
