@@ -8,6 +8,41 @@ body {
     background: #f8f8f8;
 
 }
+.nametitle{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #000000;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
+.topnav a.icon {
+    background: mediumpurple;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  ul#myLinks {
+    padding: 0;
+}
+  .topnav a:hover {
+    background-color: #f9f7fe;
+    color: black;
+  }
+  .topnav > a {
+    color: white;
+    padding: 25px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  #myLinks {
+    display: none;
+  }
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -15,9 +50,11 @@ body {
 }
 .navmain{
     margin-bottom: 10px;
-    background: antiquewhite;
+    background: #f9f7fe;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-height: 50px;
+    position: relative;
 }
 .content {
     padding-top: 15px;
@@ -30,12 +67,15 @@ text-decoration: underline;
 }
 .headernav li a {
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    color: maroon;
-    font-family: serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
     text-transform: capitalize;
     pointer-events: visible;
+    display: flex;
+    font-family: inherit;
+    justify-content: start;
+    padding-left: 15px;
 }
 .headernav{
 
