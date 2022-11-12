@@ -1,0 +1,115 @@
+
+body {
+
+    background-repeat: repeat;
+    background-color: #cccccc;
+    color: #1F2937;
+    margin: 0;
+    background: #f8f8f8;
+
+}
+.nametitle{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #000000;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
+.topnav a.icon {
+    background: mediumpurple;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  ul#myLinks {
+    padding: 0;
+}
+  .topnav i a:hover {
+    background-color: #f9f7fe;
+    color: black;
+  }
+  .topnav > a {
+    color: white;
+    padding: 25px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  #myLinks {
+    display: none;
+  }
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.navmain{
+    margin-bottom: 10px;
+    background: #f9f7fe;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 50px;
+    position: relative;
+    box-shadow: 0px 0px 6px 0px;
+}
+.content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+
+}
+.headernav li a:hover {
+text-decoration: underline;
+}
+.headernav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+    text-transform: capitalize;
+    pointer-events: visible;
+    display: flex;
+    font-family: inherit;
+    justify-content: start;
+    padding-left: 15px;
+}
+.headernav{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+aside {
+    margin-right: 15px;
+    float: left;
+    font-style: italic;
+}
+.poster {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    color: #111827;
+}
+
+#sec1 {
+    color: #DC2626;
+}
+
+.para {
+    color: #F87171;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
